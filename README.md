@@ -57,29 +57,29 @@ lib/ ├── blocs/ # BLoC logic: events, states, and bloc classes
 
 # Description of Key Folders:  
 
-## blocs/  
+### blocs/  
 Contains BLoC logic for managing state.  
 └─ Subfolders for user, post, and todo modules.  
 
-## models/  
+### models/  
 Defines data models for User, Post, and Todo entities.  
 
-## repositories/  
+### repositories/  
 Repository interfaces and their implementations for data access.  
 
-## services/  
+### services/  
 Handles API integrations and HTTP calls.  
 
-## screens/  
+### screens/  
 Comprises UI screens such as user list, user detail, and create post.  
 
-## widgets/  
+### widgets/  
 Includes reusable UI components.  
 
-## utils/  
+### utils/  
 Utility helpers, such as constants and validators.  
 
-## main.dart  
+### main.dart  
 The main entry point of the application.  
 
 🛆 State Management
