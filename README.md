@@ -55,17 +55,6 @@ lib/ ├── blocs/ # BLoC logic: events, states, and bloc classes
 ├── utils/ # Utility helpers (e.g., constants, validators)  
 └── main.dart # App entry point  
 
-Description of Key Folders:
-
-blocs/: Contains BLoC logic for managing state. Subfolders for user, post, and todo modules.
-models/: Defines data models for User, Post, and Todo entities.
-repositories/: Contains repository interfaces and their implementations for data access.
-services/: Handles API integrations and HTTP calls.
-screens/: Comprises UI screens such as user list, user detail, and create post.
-widgets/: Includes reusable UI components.
-utils/: Utility helpers, such as constants and validators.
-main.dart: The main entry point of the application. 
-
 Description of Key Folders:  
 
 blocs/  
@@ -95,13 +84,13 @@ The main entry point of the application.
 
 🛆 State Management
 
-Implemented using flutter_bloc. Each module (User, Post, Todo) has:
+Implemented using flutter_bloc. Each module (User, Post, Todo) has:  
 
-Events: Trigger state transitions (e.g., FetchUsers, SearchUsers)
+Events: Trigger state transitions (e.g., FetchUsers, SearchUsers)  
 
-States: Represent UI states (Loading, Loaded, Error)
+States: Represent UI states (Loading, Loaded, Error)  
 
-Bloc: Handles business logic
+Bloc: Handles business logic  
 
 📱 API
 
