@@ -45,51 +45,51 @@ The project follows a Clean Architecture approach, separating concerns across la
 
 lib/
 │
-├── blocs/            # BLoC logic: events, states, and bloc classes
-│   ├── user/         # User-related BLoC logic
-│   ├── post/         # Post-related BLoC logic
-│   └── todo/         # Todo-related BLoC logic
+├── blocs/            # BLoC logic: events, states, and bloc classes  
+│   ├── user/         # User-related BLoC logic  
+│   ├── post/         # Post-related BLoC logic  
+│   └── todo/         # Todo-related BLoC logic  
 │
-├── models/           # Data models for User, Post, and Todo
+├── models/           # Data models for User, Post, and Todo  
 │
-├── repositories/     # Repository interfaces and implementations
+├── repositories/     # Repository interfaces and implementations  
 │
-├── services/         # API services and HTTP calls
+├── services/         # API services and HTTP calls  
 │
-├── screens/          # UI screens: user list, user detail, create post
+├── screens/          # UI screens: user list, user detail, create post  
 │
-├── widgets/          # Reusable UI components
+├── widgets/          # Reusable UI components  
 │
-├── utils/            # Utility helpers (e.g., constants, validators)
+├── utils/            # Utility helpers (e.g., constants, validators)  
 │
-└── main.dart         # App entry point
+└── main.dart         # App entry point  
 
-Description of Key Folders:
+Description of Key Folders:  
 
-blocs/
-Contains BLoC logic for managing state.
-└─ Subfolders for user, post, and todo modules.
+blocs/  
+Contains BLoC logic for managing state.  
+└─ Subfolders for user, post, and todo modules.  
 
-models/
-Defines data models for User, Post, and Todo entities.
+models/  
+Defines data models for User, Post, and Todo entities.  
 
-repositories/
-Repository interfaces and their implementations for data access.
+repositories/  
+Repository interfaces and their implementations for data access.  
 
-services/
-Handles API integrations and HTTP calls.
+services/  
+Handles API integrations and HTTP calls.  
 
-screens/
-Comprises UI screens such as user list, user detail, and create post.
+screens/  
+Comprises UI screens such as user list, user detail, and create post.  
 
-widgets/
-Includes reusable UI components.
+widgets/  
+Includes reusable UI components.  
 
-utils/
-Utility helpers, such as constants and validators.
+utils/  
+Utility helpers, such as constants and validators.  
 
-main.dart
-The main entry point of the application.
+main.dart  
+The main entry point of the application.  
 
 🛆 State Management
 
