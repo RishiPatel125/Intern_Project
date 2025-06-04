@@ -142,6 +142,9 @@ lib/
 └── main.dart       # Application Entry Point
 ```
 
+![project](https://github.com/user-attachments/assets/5017aa6b-d350-4af1-9e1c-649aaa218437)
+
+
 ## 📂 Directory Details
 
 ### `blocs/`
