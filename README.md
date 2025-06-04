@@ -44,9 +44,9 @@ flutter run
 The project follows a Clean Architecture approach, separating concerns across layers and using the flutter_bloc package for state management.
 
 lib/ ├── blocs/   
-│ ├── user/  
-│ ├── post/  
-│ └── todo/  
+│   ├── user/  
+│   ├── post/  
+│   └── todo/  
 ├── models/  
 ├── repositories/   
 ├── services/  
