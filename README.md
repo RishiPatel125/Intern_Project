@@ -50,10 +50,10 @@ lib/ ├── blocs/
 ├── models/  
 ├── repositories/ 
 ├── services/  
-├── screens/ 
-├── widgets/  
-├── utils/  
-└── main.dart  
+├── screens/   
+├── widgets/    
+├── utils/    
+└── main.dart    
 
 # Description of Key Folders:  
 
