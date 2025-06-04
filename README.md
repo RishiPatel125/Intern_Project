@@ -12,17 +12,12 @@ This app is built as part of a Flutter developer assessment. It fetches user dat
 
 ✨ Key Features
 
-User listing with infinite scroll and real-time search
-
-Detailed user profiles with posts and todos
-
-Create post screen (local only)
-
-BLoC pattern for clean and scalable state management
-
-Error handling and loading indicators
-
-Organized project structure following best practices
+- User listing with infinite scroll and real-time search
+- Detailed user profiles with posts and todos
+- Create post screen (local only)\
+- BLoC pattern for clean and scalable state management
+- Error handling and loading indicators
+- Organized project structure following best practices
 
 💠 Setup Instructions
 
