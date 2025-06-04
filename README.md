@@ -130,9 +130,12 @@ This Flutter application follows a clean architecture pattern with BLoC state ma
 
 ## 🏗️ Architecture Overview
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" align="center">
   <img src="https://github.com/user-attachments/assets/5017aa6b-d350-4af1-9e1c-649aaa218437" alt="project" width="200">
-</div>
+</td>
+<td width="50%">
 
 ```
 lib/
@@ -146,6 +149,9 @@ lib/
 └── main.dart       # Application Entry Point
 ```
 
+</td>
+</tr>
+</table>
 ## 📂 Directory Details
 
 ### `blocs/`
