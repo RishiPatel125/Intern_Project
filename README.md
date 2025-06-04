@@ -23,8 +23,11 @@ This app is built as part of a Flutter developer assessment. It fetches user dat
 
 Clone the repository:
 
+```ruby
 git clone https://github.com/rishipatel125/flutter-user-management.git
 cd flutter-user-management
+```
+
 
 Install dependencies:
 
