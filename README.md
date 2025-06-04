@@ -132,25 +132,85 @@ lib/
 - **Architecture**: Clean Architecture
 - **Language**: Dart
 
-🛆 State Management
+## 🛠️ State Management
 
-Implemented using flutter_bloc. Each module (User, Post, Todo) has:  
+This application uses the **BLoC (Business Logic Component)** pattern with `flutter_bloc` package for predictable state management. Each feature module follows a consistent structure:
 
-Events: Trigger state transitions (e.g., FetchUsers, SearchUsers)  
+### BLoC Architecture Pattern
 
-States: Represent UI states (Loading, Loaded, Error)  
+```
+Feature Module (User/Post/Todo)
+├── Events     # User actions that trigger state changes
+├── States     # Different UI states the app can be in
+└── Bloc       # Business logic that processes events and emits states
+```
 
-Bloc: Handles business logic  
+### State Management Flow
 
-📱 API
+**Events** → **Bloc** → **States** → **UI Updates**
 
-DummyJSON is used to simulate real-world backend interaction:
+#### 📤 Events (User Actions)
+Events represent user interactions or system triggers:
+- `FetchUsers` - Load user data from API
+- `SearchUsers` - Filter users based on search query
+- `LoadMoreUsers` - Pagination for additional users
+- `CreatePost` - Submit new post data
+- `UpdateTodo` - Modify todo item status
 
-Users: https://dummyjson.com/users
+#### 📦 States (UI Representations)
+States represent different conditions of the UI:
+- `Loading` - Show loading indicators
+- `Loaded` - Display data successfully
+- `Error` - Handle and show error messages
+- `Empty` - No data available state
 
-Posts: https://dummyjson.com/posts/user/{userId}
+#### ⚙️ Bloc (Business Logic)
+The Bloc layer processes events and emits appropriate states:
+- Handles API calls through repositories
+- Manages data transformation and validation
+- Implements error handling and loading states
+- Maintains separation between UI and business logic
 
-Todos: https://dummyjson.com/todos/user/{userId}
+## 🌐 API Integration
 
-Supports pagination (limit & skip) and search via query strings.
+The app integrates with **DummyJSON** API to simulate real-world backend interactions with RESTful endpoints.
 
+### API Endpoints
+
+| Feature | Endpoint | Description |
+|---------|----------|-------------|
+| **Users** | `https://dummyjson.com/users` | Fetch user list with pagination |
+| **Posts** | `https://dummyjson.com/posts/user/{userId}` | Get posts by specific user ID |
+| **Todos** | `https://dummyjson.com/todos/user/{userId}` | Retrieve todos for a user |
+
+### API Features
+
+#### 🔍 Search Functionality
+```
+GET /users/search?q={query}
+```
+- Real-time search across user data
+- Filters by name, email, or username
+- Debounced search to optimize API calls
+
+#### 📄 Pagination Support
+```
+GET /users?limit={limit}&skip={skip}
+```
+- **limit**: Number of items per page (default: 10)
+- **skip**: Number of items to skip for pagination
+- Infinite scroll implementation for better UX
+
+#### 🔧 Query Parameters
+- `q` - Search query string
+- `limit` - Items per page (pagination)
+- `skip` - Offset for pagination
+- `select` - Specific fields to return
+
+### API Response Handling
+
+The app handles various API scenarios:
+- ✅ **Success responses** - Parse and display data
+- ❌ **Error handling** - Network errors, timeouts, 404s
+- ⏳ **Loading states** - Show appropriate loading indicators
+- 🔄 **Retry mechanisms** - Allow users to retry failed requests
