@@ -48,7 +48,7 @@ lib/ ├── blocs/
 │ ├── post/  
 │ └── todo/  
 ├── models/  
-├── repositories/ 
+├── repositories/   
 ├── services/  
 ├── screens/   
 ├── widgets/    
