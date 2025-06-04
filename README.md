@@ -26,7 +26,7 @@ Organized project structure following best practices
 
 Clone the repository:
 
-git clone https://github.com/your-username/flutter-user-management.git
+git clone https://github.com/rishipatel125/flutter-user-management.git
 cd flutter-user-management
 
 Install dependencies:
