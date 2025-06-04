@@ -10,6 +10,9 @@ This Flutter application provides a complete user management experience. It show
 
 This app is built as part of a Flutter developer assessment. It fetches user data from the DummyJSON API and displays it in a scrollable, searchable list. Upon selecting a user, the app shows detailed information including their posts and todos. A screen is also provided to create local posts.
 
+
+<details>
+
 <summary>✨ Key Features</summary>
 
 - User listing with infinite scroll and real-time search
@@ -18,6 +21,8 @@ This app is built as part of a Flutter developer assessment. It fetches user dat
 - BLoC pattern for clean and scalable state management
 - Error handling and loading indicators
 - Organized project structure following best practices
+
+</details>
 
 💠 Setup Instructions
 
