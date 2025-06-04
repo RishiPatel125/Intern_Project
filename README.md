@@ -1,5 +1,3 @@
-# Intern_Project
-
 # 🚀 Flutter User Management App
 
 A comprehensive Flutter application demonstrating modern mobile development practices with clean architecture, state management, and API integration.
