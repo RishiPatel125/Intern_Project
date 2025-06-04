@@ -142,7 +142,9 @@ lib/
 └── main.dart       # Application Entry Point
 ```
 
-![project](https://github.com/user-attachments/assets/5017aa6b-d350-4af1-9e1c-649aaa218437)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5017aa6b-d350-4af1-9e1c-649aaa218437" alt="project" width="600">
+</div>
 
 
 ## 📂 Directory Details
