@@ -58,8 +58,8 @@ lib/
 
 Description of Key Folders:
 
-blocs/: Contains BLoC logic for managing state. Subfolders for user, post, and todo modules.
-models/: Defines data models for User, Post, and Todo entities.
+blocs/: Contains BLoC logic for managing state. Subfolders for user, post, and todo modules.  
+models/: Defines data models for User, Post, and Todo entities.  
 repositories/: Contains repository interfaces and their implementations for data access.
 services/: Handles API integrations and HTTP calls.
 screens/: Comprises UI screens such as user list, user detail, and create post.
