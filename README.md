@@ -31,11 +31,16 @@ cd flutter-user-management
 
 Install dependencies:
 
+```ruby
 flutter pub get
+```
 
 Run the app:
 
+```ruby
 flutter run
+```
+
 
 💡 Ensure you have Flutter SDK installed. Use flutter doctor to verify your setup.
 
