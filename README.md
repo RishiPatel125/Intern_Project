@@ -55,7 +55,7 @@ lib/ ├── blocs/ # BLoC logic: events, states, and bloc classes
 ├── utils/ # Utility helpers (e.g., constants, validators)  
 └── main.dart # App entry point  
 
-Description of Key Folders:  
+# Description of Key Folders:  
 
 ## blocs/  
 Contains BLoC logic for managing state.  
