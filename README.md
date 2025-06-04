@@ -1,8 +1,10 @@
 # Intern_Project
 
-Flutter User Management App
-
-A Flutter application demonstrating user management functionality using the BLoC pattern, API integration, infinite scrolling, and clean architecture principles.
+This Flutter application provides a complete user management experience. It showcases how to:
+- Manage state effectively using the BLoC pattern
+- Integrate with external APIs to fetch and manage data
+- Implement infinite scrolling and search functionality
+- Organize the project using clean architecture principles for scalability and maintainability
 
 🚀 Project Overview
 
