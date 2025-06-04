@@ -143,7 +143,7 @@ lib/
 ```
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/5017aa6b-d350-4af1-9e1c-649aaa218437" alt="project" width="400">
+  <img src="https://github.com/user-attachments/assets/5017aa6b-d350-4af1-9e1c-649aaa218437" alt="project" width="300">
 </div>
 
 
