@@ -44,17 +44,28 @@ flutter run
 The project follows a Clean Architecture approach, separating concerns across layers and using the flutter_bloc package for state management.
 
 lib/
-├── blocs/              # BLoC logic: events, states, and bloc classes
+├── blocs/         # BLoC logic: events, states, and bloc classes
 │   ├── user/
 │   ├── post/
 │   └── todo/
-├── models/             # Data models for User, Post, Todo
-├── repositories/       # Repository interfaces and implementations
-├── services/           # API services and HTTP calls
-├── screens/            # UI screens: user list, user detail, create post
-├── widgets/            # Reusable UI components
-├── utils/              # Utility helpers (e.g., constants, validators)
-└── main.dart           # App entry point
+├── models/        # Data models for User, Post, Todo
+├── repositories/  # Repository interfaces and implementations
+├── services/      # API services and HTTP calls
+├── screens/       # UI screens: user list, user detail, create post
+├── widgets/       # Reusable UI components
+├── utils/         # Utility helpers (e.g., constants, validators)
+└── main.dart      # App entry point
+
+Description of Key Folders:
+
+blocs/: Contains BLoC logic for managing state. Subfolders for user, post, and todo modules.
+models/: Defines data models for User, Post, and Todo entities.
+repositories/: Contains repository interfaces and their implementations for data access.
+services/: Handles API integrations and HTTP calls.
+screens/: Comprises UI screens such as user list, user detail, and create post.
+widgets/: Includes reusable UI components.
+utils/: Utility helpers, such as constants and validators.
+main.dart: The main entry point of the application.
 
 🛆 State Management
 
